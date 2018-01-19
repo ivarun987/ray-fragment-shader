@@ -23,3 +23,11 @@ This shader shows you how to switch between screen coordinate and world coordina
 This shader shows you how to use a 3D aspect in a fragment shader, with a simple ray casting method. Theoretically, it draws a sphere in three-dimensional space. But it looks like a circle because there is no light anymore.
 
 ![sphere.frag](docs/screenshots/sphere.png)
+
+## Phong
+
+`phong.frag`
+
+This shader is similar to the previous one and adds the Phong shading light. The sphere takes a material component with ambient, diffuse and specular coefficients. Furthermore, we place a light in the world space.
+
+![phong.frag](docs/screenshots/phong.png)
