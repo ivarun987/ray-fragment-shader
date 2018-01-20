@@ -39,3 +39,11 @@ This shader is similar to the previous one and adds the Phong shading light. The
 This shader adds a plane below our ball. Here we compute all rays intersection on the plane before the ball, because we don't take in consideration the nearest intersection.
 
 ![plane.frag](docs/screenshots/plane.png)
+
+## Shadow
+
+`shadow.frag`
+
+We finally compute the nearest intersection and we can now get a shadow factor on this intersection. This shadow factor will be use when we compute the Phong shading light.
+
+![shadow.frag](docs/screenshots/shadow.png)
