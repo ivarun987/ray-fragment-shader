@@ -31,3 +31,11 @@ This shader shows you how to use a 3D aspect in a fragment shader, with a simple
 This shader is similar to the previous one and adds the Phong shading light. The sphere takes a material component with ambient, diffuse and specular coefficients. Furthermore, we place a light in the world space.
 
 ![phong.frag](docs/screenshots/phong.png)
+
+## Plane
+
+`plane.frag`
+
+This shader adds a plane below our ball. Here we compute all rays intersection on the plane before the ball, because we don't take in consideration the nearest intersection.
+
+![plane.frag](docs/screenshots/plane.png)
