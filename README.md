@@ -47,3 +47,11 @@ This shader adds a plane below our ball. Here we compute all rays intersection o
 We finally compute the nearest intersection and we can now get a shadow factor on this intersection. This shadow factor will be use when we compute the Phong shading light.
 
 ![shadow.frag](docs/screenshots/shadow.png)
+
+## Raytracing
+
+`raytracing.frag`
+
+In this shader, when we draw the scene, the materials obtained during a reflection are saved. Then we determine the color according to the specular coefficient and the color of the different materials encountered by the ray. The sphere and the light are animated, by the way.
+
+![raytracing.frag](docs/screenshots/raytracing.png)
