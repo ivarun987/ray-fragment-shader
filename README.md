@@ -55,3 +55,11 @@ We finally compute the nearest intersection and we can now get a shadow factor o
 In this shader, when we draw the scene, the materials obtained during a reflection are saved. Then we determine the color according to the specular coefficient and the color of the different materials encountered by the ray. The sphere and the light are animated, by the way.
 
 ![raytracing.frag](docs/screenshots/raytracing.png)
+
+## Multilight
+
+`multilight.frag`
+
+Here we just add a second light with double shadow.
+
+![multilight.frag](docs/screenshots/multilight.png)
